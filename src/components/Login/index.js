@@ -20,7 +20,7 @@ function Login(){
             <input type="checkbox" value="remember-me"/> Remember me
           </label>
         </div>
-        <Link to="/fol">
+        <Link to="/search">
           <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
         </Link>
       </form>
