@@ -1,0 +1,17 @@
+.control {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    margin-top: 12em;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.control button{
+    opacity: 60%;
+    border-style: none;
+}
+.container {
+ position: relative;
+}
