@@ -7,6 +7,7 @@ import {
 import './App.css';
 import Login from './components/Login';
 import Fol from "./components/Fol";
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={ <Login/> }></Route>
         <Route path='/fol' element={ <Fol/> }></Route>
+        <Route path='/search' element={ <Search/> }></Route>
       </Routes>
     </BrowserRouter>
   );
