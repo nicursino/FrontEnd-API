@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
+import { Link } from 'react-router-dom';
 import './fol.css';
 
 
@@ -29,7 +30,10 @@ function Fol (){
       </div>
       <p>
           Page {pageNumber} of {numPages}
-        </p>
+      </p>
+      <Link to="/search">
+        <button className="w-100 btn btn-lg btn-primary" >Back</button>
+      </Link>
     </div>
   )
 }
